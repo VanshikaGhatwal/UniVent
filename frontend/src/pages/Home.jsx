@@ -12,7 +12,7 @@ export default function Home() {
           </p>
 
           <h1 className="text-6xl font-semibold text-neutral-900 leading-tight mb-8">
-            A simpler way to explore and create your campus events.
+            A simple way to explore and create your campus events.
           </h1>
 
           <p className="text-neutral-600 text-lg leading-relaxed mb-12">

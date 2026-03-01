@@ -41,7 +41,7 @@ export default function Events() {
 
   return (
     
-  <div className="min-h-screen bg-[#f9f7fc] px-8 py-12">
+  <div className="min-h-screen bg-[#FAFAF7]  px-8 py-12">
     <h1 className="text-3xl font-semibold text-[#2e2e2e] mb-10">
       College Events
     </h1>

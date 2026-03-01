@@ -1,6 +1,6 @@
 export default function Register() {
   return (
-    <div className="bg-[#FAFAF7] dark:bg-neutral-900 min-h-screen flex items-center justify-center px-6 transition-colors duration-300">
+    <div className="bg-[#FAFAF7]  min-h-screen flex items-center justify-center px-6 transition-colors duration-300">
 
       <div className="bg-white dark:bg-neutral-800 w-full max-w-md p-12 rounded-3xl shadow-sm border border-neutral-100 dark:border-neutral-700">
 
