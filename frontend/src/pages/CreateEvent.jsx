@@ -21,7 +21,7 @@ export default function CreateEvent() {
 
         <input
           type="date"
-          className="w-full p-4 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white text-grey-700" 
+          className="w-full p-4 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white " 
         />
 
         <button

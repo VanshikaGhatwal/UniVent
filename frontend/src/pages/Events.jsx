@@ -11,6 +11,7 @@ export default function Events() {
       date: "March 15, 2026",
       category: "Technical",
       location: "Main Auditorium",
+      image: "https://futuramo.com/blog/wp-content/uploads/2023/05/html-system-website-concept.jpg",
     },
     {
       id: 2,
@@ -18,6 +19,7 @@ export default function Events() {
       date: "April 2, 2026",
       category: "Cultural",
       location: "College Ground",
+      image: "https://template.canva.com/EAFZ0DbERW4/2/0/1600w-GM3G2FHXBis.jpg",
     },
     {
       id: 3,
@@ -25,6 +27,7 @@ export default function Events() {
       date: "March 20, 2026",
       category: "Technical",
       location: "Lab 3",
+      image: "https://template.canva.com/EAGmF46ma6I/1/0/1600w--3uaZAMOdHM.jpg",
     },
   ]
 
@@ -41,7 +44,7 @@ export default function Events() {
 
   return (
     
-  <div className="min-h-screen bg-[#FAFAF7]  px-8 py-12">
+  <div className="min-h-screen bg-[#FAFAF7] px-8 py-12">
     <h1 className="text-3xl font-semibold text-[#2e2e2e] mb-10">
       College Events
     </h1>
@@ -74,6 +77,11 @@ export default function Events() {
           key={event.id}
           className="bg-white p-6 rounded-3xl shadow-sm hover:shadow-lg transition duration-300 border border-[#f0ecf8]"
         >
+           <img
+    src={event.image}
+    alt={event.title}
+    className="w-full h-48 object-cover"
+  />
           <h2 className="text-xl font-medium text-[#2e2e2e] mb-2">
             {event.title}
           </h2>

@@ -17,7 +17,7 @@ export default function Navbar() {
   }, [darkMode])
 
   return (
-    <nav className="bg-[#FAFAF7] dark:bg-neutral-900 px-16 py-6 flex justify-between items-center transition-colors duration-300">
+    <nav className="bg-[#FAFAF7] dark:bg-neutral-900 px-16 py-6 flex justify-between items-center transition-colors duration-300  ">
 
       <h1 className="text-2xl font-semibold text-neutral-800 dark:text-white tracking-tight">
         UniVent
